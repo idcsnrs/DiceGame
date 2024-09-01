@@ -1,0 +1,58 @@
+:root {
+  --first: #1a2634;
+  --second: #203e5f;
+  --third: #ffcc00;
+  --fourth: #fee5b1;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: var(--first);
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 var(--second);
+  font-size: 8rem;
+  color: var(--fourth);
+}
+
+p {
+  font-size: 2rem;
+  color: var(--fourth);
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: var(--third);
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.gitLink {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.gitLink:hover {
+  color: red;
+}
